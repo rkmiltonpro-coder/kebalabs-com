@@ -1,0 +1,1739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keba Labs | AI-Powered Digital Growth Company in Chennai</title>
+<meta name="description" content="Keba Labs is Chennai's premier AI-powered digital growth company. We deliver SEO, web development, branding, AI automation & performance marketing for businesses ready to dominate their market.">
+<meta name="keywords" content="digital marketing company in Chennai, SEO company Chennai, AI marketing agency Chennai, website development Chennai, branding agency Chennai, performance marketing Chennai, social media marketing Chennai">
+<meta name="author" content="Keba Labs">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://kebalabs.com/">
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Keba Labs | AI-Powered Digital Growth Company in Chennai">
+<meta property="og:description" content="Chennai's most advanced AI-powered digital growth company. SEO, Web Development, Branding, AI Automation & Performance Marketing.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kebalabs.com/">
+<meta property="og:image" content="https://kebalabs.com/assets/og-image.jpg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Keba Labs | AI-Powered Digital Growth Company in Chennai">
+<meta name="twitter:description" content="Chennai's most advanced AI-powered digital growth company.">
+
+<!-- Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Keba Labs",
+  "url": "https://kebalabs.com",
+  "logo": "https://kebalabs.com/assets/logo.png",
+  "description": "AI-Powered Digital Growth Company in Chennai",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Chennai",
+    "addressRegion": "Tamil Nadu",
+    "addressCountry": "IN"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "RK Milton",
+    "jobTitle": "Founder & CEO"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/kebalabs",
+    "https://twitter.com/kebalabs",
+    "https://instagram.com/kebalabs"
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --black: #050505;
+    --dark: #0a0a0a;
+    --dark2: #111111;
+    --dark3: #161616;
+    --green: #00ff88;
+    --green2: #00cc6a;
+    --green3: #00ff8833;
+    --green-glow: 0 0 40px rgba(0,255,136,0.3);
+    --green-glow-sm: 0 0 20px rgba(0,255,136,0.2);
+    --white: #ffffff;
+    --gray: #888888;
+    --gray2: #555555;
+    --border: rgba(255,255,255,0.06);
+    --border-green: rgba(0,255,136,0.15);
+    --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; font-size: 16px; }
+
+  body {
+    background: var(--black);
+    color: var(--white);
+    font-family: var(--font);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* SCROLLBAR */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: var(--dark); }
+  ::-webkit-scrollbar-thumb { background: var(--green); border-radius: 2px; }
+
+  /* TYPOGRAPHY */
+  h1,h2,h3,h4,h5,h6 { line-height: 1.2; font-weight: 700; letter-spacing: -0.02em; }
+
+  a { text-decoration: none; color: inherit; }
+
+  img { max-width: 100%; display: block; }
+
+  /* UTILITY */
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+  .container-wide { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
+
+  .tag {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 6px 14px; border-radius: 100px;
+    background: var(--green3); border: 1px solid var(--border-green);
+    color: var(--green); font-size: 12px; font-weight: 600;
+    letter-spacing: 0.08em; text-transform: uppercase;
+  }
+
+  .tag::before { content: ''; width: 6px; height: 6px; background: var(--green); border-radius: 50%; animation: pulse 2s infinite; }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.8); }
+  }
+
+  .btn-primary {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 14px 28px; border-radius: 8px;
+    background: var(--green); color: var(--black);
+    font-weight: 700; font-size: 15px; cursor: pointer;
+    border: none; transition: all 0.3s ease;
+    box-shadow: 0 0 30px rgba(0,255,136,0.3);
+  }
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 50px rgba(0,255,136,0.5);
+    background: #00ffaa;
+  }
+
+  .btn-secondary {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 14px 28px; border-radius: 8px;
+    background: transparent; color: var(--white);
+    font-weight: 600; font-size: 15px; cursor: pointer;
+    border: 1px solid var(--border);
+    transition: all 0.3s ease;
+  }
+  .btn-secondary:hover {
+    border-color: var(--green);
+    color: var(--green);
+    box-shadow: var(--green-glow-sm);
+  }
+
+  .section-header { text-align: center; max-width: 680px; margin: 0 auto 64px; }
+  .section-header h2 { font-size: clamp(32px, 4vw, 52px); margin: 16px 0; }
+  .section-header p { color: var(--gray); font-size: 17px; line-height: 1.7; }
+
+  /* GLASS CARD */
+  .glass {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+  }
+
+  /* ===================== NAVBAR ===================== */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    padding: 16px 0;
+    transition: all 0.3s ease;
+  }
+  nav.scrolled {
+    background: rgba(5,5,5,0.95);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav-inner {
+    display: flex; align-items: center; justify-content: space-between;
+  }
+
+  .logo {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 22px; font-weight: 800; letter-spacing: -0.03em;
+  }
+  .logo-icon {
+    width: 36px; height: 36px; border-radius: 8px;
+    background: var(--green);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--black); font-weight: 900; font-size: 16px;
+    box-shadow: var(--green-glow-sm);
+  }
+  .logo-text span { color: var(--green); }
+
+  .nav-links {
+    display: flex; align-items: center; gap: 8px;
+    list-style: none;
+  }
+  .nav-links a {
+    padding: 8px 14px; border-radius: 6px; font-size: 14px;
+    font-weight: 500; color: var(--gray);
+    transition: all 0.2s ease;
+  }
+  .nav-links a:hover { color: var(--white); background: rgba(255,255,255,0.05); }
+
+  .nav-cta {
+    display: flex; align-items: center; gap: 12px;
+  }
+
+  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
+  .hamburger span { display: block; width: 22px; height: 2px; background: var(--white); border-radius: 2px; transition: all 0.3s; }
+
+  .mobile-menu {
+    display: none; position: fixed; top: 72px; left: 0; right: 0;
+    background: rgba(5,5,5,0.98); backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+    padding: 24px; flex-direction: column; gap: 8px;
+  }
+  .mobile-menu.open { display: flex; }
+  .mobile-menu a {
+    padding: 12px 16px; border-radius: 8px; font-size: 15px;
+    color: var(--gray); transition: all 0.2s;
+  }
+  .mobile-menu a:hover { color: var(--white); background: rgba(255,255,255,0.05); }
+
+  /* ===================== HERO ===================== */
+  .hero {
+    min-height: 100vh; display: flex; align-items: center;
+    position: relative; overflow: hidden; padding: 120px 0 80px;
+  }
+
+  .hero-bg {
+    position: absolute; inset: 0; z-index: 0;
+  }
+  .hero-grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(0,255,136,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,255,136,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+  .hero-glow1 {
+    position: absolute; width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(0,255,136,0.12) 0%, transparent 70%);
+    top: -200px; right: -100px; border-radius: 50%;
+  }
+  .hero-glow2 {
+    position: absolute; width: 400px; height: 400px;
+    background: radial-gradient(circle, rgba(0,255,136,0.08) 0%, transparent 70%);
+    bottom: -100px; left: -100px; border-radius: 50%;
+  }
+
+  .hero-content { position: relative; z-index: 1; max-width: 900px; }
+
+  .hero-tag { margin-bottom: 24px; }
+
+  .hero h1 {
+    font-size: clamp(44px, 6vw, 88px);
+    font-weight: 800; line-height: 1.05;
+    margin-bottom: 28px;
+    letter-spacing: -0.04em;
+  }
+  .hero h1 .accent { color: var(--green); position: relative; }
+  .hero h1 .accent::after {
+    content: '';
+    position: absolute; bottom: -4px; left: 0; right: 0; height: 3px;
+    background: var(--green); border-radius: 2px;
+    box-shadow: var(--green-glow-sm);
+  }
+
+  .hero-desc {
+    font-size: clamp(16px, 2vw, 20px); color: var(--gray);
+    max-width: 640px; margin-bottom: 48px; line-height: 1.7;
+  }
+
+  .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 72px; }
+
+  .hero-stats {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 1px; background: var(--border);
+    border: 1px solid var(--border); border-radius: 12px;
+    overflow: hidden; max-width: 560px;
+  }
+  .hero-stat {
+    background: var(--dark2); padding: 24px 28px;
+  }
+  .hero-stat-num {
+    font-size: 36px; font-weight: 800; color: var(--green);
+    letter-spacing: -0.03em; line-height: 1;
+  }
+  .hero-stat-label { font-size: 13px; color: var(--gray); margin-top: 4px; }
+
+  /* ===================== MARQUEE ===================== */
+  .marquee-section {
+    padding: 32px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+    overflow: hidden; background: var(--dark2);
+  }
+  .marquee-track {
+    display: flex; gap: 64px; align-items: center;
+    animation: marquee 30s linear infinite; white-space: nowrap;
+    width: max-content;
+  }
+  .marquee-track:hover { animation-play-state: paused; }
+  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .marquee-item {
+    font-size: 13px; font-weight: 600; color: var(--gray2);
+    text-transform: uppercase; letter-spacing: 0.1em;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .marquee-item::before { content: '◆'; color: var(--green); font-size: 8px; }
+
+  /* ===================== SERVICES ===================== */
+  .services-section { padding: 120px 0; }
+
+  .services-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 1px; background: var(--border);
+    border: 1px solid var(--border); border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .service-card {
+    background: var(--dark2); padding: 40px;
+    transition: all 0.3s ease; position: relative; overflow: hidden;
+  }
+  .service-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: var(--green); transform: scaleX(0); transition: transform 0.3s ease;
+    transform-origin: left;
+  }
+  .service-card:hover::before { transform: scaleX(1); }
+  .service-card:hover { background: var(--dark3); }
+
+  .service-icon {
+    width: 52px; height: 52px; border-radius: 12px;
+    background: var(--green3); border: 1px solid var(--border-green);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px; margin-bottom: 24px;
+  }
+
+  .service-card h3 { font-size: 20px; margin-bottom: 12px; }
+  .service-card p { color: var(--gray); font-size: 14px; line-height: 1.7; margin-bottom: 20px; }
+
+  .service-link {
+    font-size: 13px; font-weight: 600; color: var(--green);
+    display: flex; align-items: center; gap: 6px;
+    transition: gap 0.2s;
+  }
+  .service-link:hover { gap: 10px; }
+
+  /* ===================== WHY US ===================== */
+  .why-section { padding: 120px 0; background: var(--dark2); }
+
+  .why-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 80px; align-items: center;
+  }
+
+  .why-features { display: flex; flex-direction: column; gap: 24px; }
+
+  .why-feature {
+    display: flex; gap: 20px; align-items: flex-start;
+    padding: 24px; border-radius: 12px;
+    border: 1px solid var(--border); background: rgba(255,255,255,0.02);
+    transition: all 0.3s;
+  }
+  .why-feature:hover {
+    border-color: var(--border-green);
+    background: var(--green3);
+  }
+  .why-feature-icon {
+    width: 44px; height: 44px; flex-shrink: 0; border-radius: 10px;
+    background: var(--green3); border: 1px solid var(--border-green);
+    display: flex; align-items: center; justify-content: center; font-size: 18px;
+  }
+  .why-feature h4 { font-size: 16px; margin-bottom: 6px; }
+  .why-feature p { font-size: 14px; color: var(--gray); }
+
+  .why-visual {
+    position: relative;
+  }
+  .why-visual-card {
+    border-radius: 20px; overflow: hidden;
+    background: var(--dark3); border: 1px solid var(--border);
+    padding: 40px;
+  }
+  .why-metric {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 0; border-bottom: 1px solid var(--border);
+  }
+  .why-metric:last-child { border-bottom: none; }
+  .why-metric-label { font-size: 14px; color: var(--gray); }
+  .why-metric-value {
+    font-size: 20px; font-weight: 700; color: var(--green);
+  }
+  .why-metric-bar {
+    width: 120px; height: 6px; background: var(--dark);
+    border-radius: 3px; overflow: hidden; margin-top: 4px;
+  }
+  .why-metric-fill {
+    height: 100%; background: var(--green); border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0,255,136,0.5);
+  }
+
+  /* ===================== PROCESS ===================== */
+  .process-section { padding: 120px 0; }
+
+  .process-steps {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px;
+    position: relative;
+  }
+  .process-step {
+    padding: 40px 32px; background: var(--dark2);
+    border: 1px solid var(--border); position: relative;
+    transition: all 0.3s;
+  }
+  .process-step:hover { border-color: var(--border-green); background: var(--dark3); }
+  .step-num {
+    font-size: 48px; font-weight: 800; color: var(--green3);
+    line-height: 1; margin-bottom: 20px; letter-spacing: -0.03em;
+    text-shadow: 0 0 30px rgba(0,255,136,0.3);
+  }
+  .process-step h3 { font-size: 18px; margin-bottom: 12px; }
+  .process-step p { font-size: 14px; color: var(--gray); line-height: 1.6; }
+
+  /* ===================== PORTFOLIO ===================== */
+  .portfolio-section { padding: 120px 0; background: var(--dark2); }
+
+  .portfolio-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+  }
+
+  .portfolio-card {
+    border-radius: 16px; overflow: hidden;
+    border: 1px solid var(--border); background: var(--dark3);
+    transition: all 0.3s; cursor: pointer;
+  }
+  .portfolio-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--border-green);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4), 0 0 40px rgba(0,255,136,0.1);
+  }
+
+  .portfolio-thumb {
+    height: 200px; background: var(--dark);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 48px; position: relative; overflow: hidden;
+  }
+  .portfolio-thumb::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(135deg, var(--green3), transparent);
+  }
+
+  .portfolio-body { padding: 24px; }
+  .portfolio-tag {
+    font-size: 11px; color: var(--green); font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px;
+  }
+  .portfolio-card h3 { font-size: 18px; margin-bottom: 8px; }
+  .portfolio-card p { font-size: 14px; color: var(--gray); }
+  .portfolio-metrics {
+    display: flex; gap: 20px; margin-top: 16px; padding-top: 16px;
+    border-top: 1px solid var(--border);
+  }
+  .portfolio-metric { text-align: left; }
+  .portfolio-metric-val { font-size: 20px; font-weight: 700; color: var(--green); }
+  .portfolio-metric-lbl { font-size: 11px; color: var(--gray); }
+
+  /* ===================== TESTIMONIALS ===================== */
+  .testimonials-section { padding: 120px 0; }
+
+  .testimonials-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+  }
+
+  .testimonial-card {
+    padding: 32px; border-radius: 16px;
+    background: var(--dark2); border: 1px solid var(--border);
+    transition: all 0.3s;
+  }
+  .testimonial-card:hover {
+    border-color: var(--border-green);
+    box-shadow: 0 0 40px rgba(0,255,136,0.05);
+  }
+
+  .stars { color: var(--green); font-size: 14px; margin-bottom: 16px; letter-spacing: 2px; }
+  .testimonial-text {
+    font-size: 15px; color: #cccccc; line-height: 1.7;
+    margin-bottom: 24px; font-style: italic;
+  }
+  .testimonial-author { display: flex; align-items: center; gap: 14px; }
+  .author-avatar {
+    width: 46px; height: 46px; border-radius: 50%;
+    background: var(--green3); border: 2px solid var(--border-green);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; color: var(--green); font-size: 16px;
+  }
+  .author-name { font-size: 15px; font-weight: 600; }
+  .author-role { font-size: 12px; color: var(--gray); }
+
+  /* ===================== STATS ===================== */
+  .stats-section { padding: 80px 0; background: var(--dark2); }
+
+  .stats-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 1px; background: var(--border);
+    border: 1px solid var(--border); border-radius: 16px; overflow: hidden;
+  }
+  .stat-item { background: var(--dark3); padding: 40px; text-align: center; }
+  .stat-num {
+    font-size: 52px; font-weight: 800; color: var(--green);
+    letter-spacing: -0.04em; line-height: 1;
+    text-shadow: 0 0 40px rgba(0,255,136,0.4);
+  }
+  .stat-label { font-size: 14px; color: var(--gray); margin-top: 8px; }
+
+  /* ===================== FOUNDER ===================== */
+  .founder-section { padding: 120px 0; }
+
+  .founder-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 80px; align-items: center;
+  }
+
+  .founder-image-wrap {
+    position: relative;
+  }
+  .founder-card {
+    border-radius: 20px; overflow: hidden; position: relative;
+    border: 1px solid var(--border);
+    background: linear-gradient(135deg, var(--dark2), var(--dark3));
+    padding: 60px 40px; text-align: center;
+  }
+  .founder-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, transparent, var(--green), transparent);
+  }
+  .founder-avatar-large {
+    width: 120px; height: 120px; border-radius: 50%;
+    background: var(--green3); border: 3px solid var(--green);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 48px; font-weight: 800; color: var(--green);
+    margin: 0 auto 24px; box-shadow: 0 0 40px rgba(0,255,136,0.3);
+  }
+  .founder-name-card { font-size: 28px; font-weight: 800; margin-bottom: 6px; }
+  .founder-title-card { font-size: 14px; color: var(--green); font-weight: 600; letter-spacing: 0.05em; }
+
+  .founder-badge {
+    position: absolute; bottom: 24px; right: 24px;
+    padding: 8px 16px; border-radius: 100px;
+    background: var(--green); color: var(--black);
+    font-size: 12px; font-weight: 700;
+  }
+
+  .founder-content .tag { margin-bottom: 24px; }
+  .founder-content h2 { font-size: clamp(32px, 3.5vw, 48px); margin-bottom: 20px; }
+  .founder-content p { color: var(--gray); font-size: 16px; line-height: 1.8; margin-bottom: 16px; }
+
+  .founder-credentials { display: flex; flex-direction: column; gap: 12px; margin-top: 32px; }
+  .credential {
+    display: flex; align-items: center; gap: 12px;
+    font-size: 14px; color: #cccccc;
+  }
+  .credential::before { content: '✓'; color: var(--green); font-weight: 700; }
+
+  /* ===================== SEO CONTENT ===================== */
+  .seo-section { padding: 100px 0; background: var(--dark2); }
+
+  .seo-content-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 60px;
+  }
+  .seo-block h2 { font-size: 28px; margin-bottom: 16px; }
+  .seo-block p { color: var(--gray); font-size: 15px; line-height: 1.8; margin-bottom: 20px; }
+  .seo-block h3 { font-size: 20px; margin-bottom: 12px; margin-top: 28px; }
+  .seo-block ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .seo-block li {
+    display: flex; align-items: flex-start; gap: 10px;
+    font-size: 14px; color: var(--gray); line-height: 1.5;
+  }
+  .seo-block li::before { content: '→'; color: var(--green); flex-shrink: 0; }
+
+  /* ===================== FAQ ===================== */
+  .faq-section { padding: 100px 0; }
+
+  .faq-list { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+
+  .faq-item {
+    border: 1px solid var(--border); border-radius: 12px;
+    background: var(--dark2); overflow: hidden;
+    transition: border-color 0.3s;
+  }
+  .faq-item.open { border-color: var(--border-green); }
+
+  .faq-q {
+    padding: 24px 28px; cursor: pointer;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 16px; font-weight: 600; user-select: none;
+    gap: 16px;
+  }
+  .faq-q:hover { color: var(--green); }
+
+  .faq-icon {
+    width: 28px; height: 28px; border-radius: 50%;
+    background: var(--dark3); border: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; font-size: 16px; transition: all 0.3s;
+    color: var(--green);
+  }
+  .faq-item.open .faq-icon { background: var(--green); color: var(--black); transform: rotate(45deg); }
+
+  .faq-a {
+    max-height: 0; overflow: hidden; transition: max-height 0.4s ease;
+    padding: 0 28px;
+  }
+  .faq-item.open .faq-a { max-height: 300px; padding: 0 28px 24px; }
+  .faq-a p { color: var(--gray); font-size: 15px; line-height: 1.7; }
+
+  /* ===================== CTA SECTION ===================== */
+  .cta-section { padding: 120px 0; }
+
+  .cta-box {
+    border-radius: 24px; padding: 80px;
+    background: linear-gradient(135deg, var(--dark2), var(--dark3));
+    border: 1px solid var(--border-green);
+    text-align: center; position: relative; overflow: hidden;
+  }
+  .cta-box::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(circle at center, rgba(0,255,136,0.08) 0%, transparent 70%);
+  }
+  .cta-box h2 { font-size: clamp(32px, 4vw, 56px); margin: 16px 0 20px; position: relative; }
+  .cta-box p { color: var(--gray); font-size: 18px; max-width: 560px; margin: 0 auto 40px; position: relative; }
+  .cta-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; position: relative; }
+
+  /* ===================== INDUSTRIES ===================== */
+  .industries-section { padding: 100px 0; background: var(--dark2); }
+
+  .industries-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+  }
+  .industry-card {
+    padding: 28px 24px; border-radius: 12px;
+    background: var(--dark3); border: 1px solid var(--border);
+    text-align: center; transition: all 0.3s;
+  }
+  .industry-card:hover {
+    border-color: var(--border-green); transform: translateY(-4px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  }
+  .industry-icon { font-size: 32px; margin-bottom: 12px; }
+  .industry-card h4 { font-size: 14px; font-weight: 600; color: var(--gray); }
+
+  /* ===================== FOOTER ===================== */
+  footer {
+    background: var(--dark2); border-top: 1px solid var(--border);
+    padding: 80px 0 40px;
+  }
+
+  .footer-grid {
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 60px;
+    margin-bottom: 60px;
+  }
+
+  .footer-brand p { color: var(--gray); font-size: 14px; line-height: 1.7; margin: 16px 0 24px; max-width: 280px; }
+
+  .footer-social { display: flex; gap: 12px; }
+  .social-link {
+    width: 38px; height: 38px; border-radius: 8px;
+    background: var(--dark3); border: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; transition: all 0.2s; color: var(--gray);
+  }
+  .social-link:hover { border-color: var(--green); color: var(--green); }
+
+  .footer-col h5 {
+    font-size: 13px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--gray2); margin-bottom: 20px;
+  }
+  .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .footer-links a { font-size: 14px; color: var(--gray); transition: color 0.2s; }
+  .footer-links a:hover { color: var(--green); }
+
+  .footer-bottom {
+    padding-top: 32px; border-top: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 16px;
+  }
+  .footer-bottom p { font-size: 13px; color: var(--gray2); }
+  .footer-bottom-links { display: flex; gap: 24px; }
+  .footer-bottom-links a { font-size: 13px; color: var(--gray2); transition: color 0.2s; }
+  .footer-bottom-links a:hover { color: var(--gray); }
+
+  /* ===================== ANIMATIONS ===================== */
+  .fade-up {
+    opacity: 0; transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+  .fade-up-delay-1 { transition-delay: 0.1s; }
+  .fade-up-delay-2 { transition-delay: 0.2s; }
+  .fade-up-delay-3 { transition-delay: 0.3s; }
+
+  /* ===================== CALENDLY MODAL ===================== */
+  .cal-modal-overlay {
+    position: fixed; inset: 0; z-index: 9999;
+    background: rgba(0,0,0,0.85); backdrop-filter: blur(8px);
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0; visibility: hidden; transition: all 0.3s ease;
+    padding: 16px;
+  }
+  .cal-modal-overlay.open { opacity: 1; visibility: visible; }
+
+  .cal-modal {
+    background: var(--dark2); border: 1px solid var(--border-green);
+    border-radius: 20px; overflow: hidden;
+    width: 100%; max-width: 900px; max-height: 90vh;
+    display: flex; flex-direction: column;
+    box-shadow: 0 0 80px rgba(0,255,136,0.15);
+    transform: translateY(20px); transition: transform 0.3s ease;
+  }
+  .cal-modal-overlay.open .cal-modal { transform: translateY(0); }
+
+  .cal-modal-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 28px; border-bottom: 1px solid var(--border);
+    background: var(--dark3);
+  }
+  .cal-modal-title { display: flex; align-items: center; gap: 12px; }
+  .cal-modal-title .logo-icon { width: 32px; height: 32px; font-size: 14px; flex-shrink: 0; }
+  .cal-modal-title h3 { font-size: 17px; font-weight: 700; }
+  .cal-modal-title p { font-size: 13px; color: var(--gray); }
+
+  .cal-close-btn {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: rgba(255,255,255,0.06); border: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; color: var(--gray); font-size: 18px;
+    transition: all 0.2s; flex-shrink: 0;
+  }
+  .cal-close-btn:hover { background: rgba(255,255,255,0.1); color: var(--white); }
+
+  .cal-modal-body { flex: 1; overflow: hidden; min-height: 0; }
+  .cal-modal-body iframe {
+    width: 100%; height: 100%; min-height: 580px;
+    border: none; display: block;
+  }
+
+  /* BOOKING SECTION */
+  .booking-section { padding: 120px 0; background: var(--dark2); }
+  .booking-inner {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 60px; align-items: center;
+  }
+  .booking-content .tag { margin-bottom: 24px; }
+  .booking-content h2 { font-size: clamp(32px,3.5vw,48px); margin-bottom: 16px; }
+  .booking-content p { color: var(--gray); font-size: 16px; line-height: 1.8; margin-bottom: 16px; }
+  .booking-features { display: flex; flex-direction: column; gap: 12px; margin: 28px 0 36px; }
+  .booking-feature {
+    display: flex; align-items: center; gap: 12px;
+    font-size: 15px; color: #cccccc;
+  }
+  .booking-feature-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--green); flex-shrink: 0;
+    box-shadow: 0 0 8px rgba(0,255,136,0.6);
+  }
+
+  .calendly-embed-wrap {
+    border-radius: 16px; overflow: hidden;
+    border: 1px solid var(--border-green);
+    box-shadow: 0 0 60px rgba(0,255,136,0.1);
+    background: var(--dark3);
+  }
+  .calendly-embed-wrap .calendly-inline-widget {
+    min-width: unset !important;
+  }
+
+  /* ===================== RESPONSIVE ===================== */
+  @media (max-width: 1024px) {
+    .services-grid { grid-template-columns: repeat(2, 1fr); }
+    .why-grid { grid-template-columns: 1fr; }
+    .process-steps { grid-template-columns: repeat(2, 1fr); }
+    .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
+    .testimonials-grid { grid-template-columns: 1fr 1fr; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .founder-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
+    .industries-grid { grid-template-columns: repeat(2, 1fr); }
+    .seo-content-grid { grid-template-columns: 1fr; }
+    .booking-inner { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 768px) {
+    .nav-links, .nav-cta { display: none; }
+    .hamburger { display: flex; }
+    .services-grid { grid-template-columns: 1fr; }
+    .process-steps { grid-template-columns: 1fr; }
+    .portfolio-grid { grid-template-columns: 1fr; }
+    .testimonials-grid { grid-template-columns: 1fr; }
+    .hero-stats { grid-template-columns: 1fr; max-width: 100%; }
+    .cta-box { padding: 48px 24px; }
+    .footer-grid { grid-template-columns: 1fr; }
+    .industries-grid { grid-template-columns: repeat(2, 1fr); }
+    .why-grid { gap: 40px; }
+  }
+
+  @media (max-width: 480px) {
+    .industries-grid { grid-template-columns: 1fr 1fr; }
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== CALENDLY MODAL ===== -->
+<div class="cal-modal-overlay" id="calModal" onclick="closeCalendlyModal(event)">
+  <div class="cal-modal" id="calModalBox">
+    <div class="cal-modal-header">
+      <div class="cal-modal-title">
+        <div class="logo-icon">K</div>
+        <div>
+          <h3>Book a Free Strategy Session</h3>
+          <p>30 minutes · Free consultation · No commitment</p>
+        </div>
+      </div>
+      <button class="cal-close-btn" onclick="closeCalModal()" aria-label="Close">✕</button>
+    </div>
+    <div class="cal-modal-body">
+      <iframe id="calIframe" src="" title="Book a strategy session with Keba Labs" loading="lazy" allow="camera; microphone; fullscreen"></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">K</div>
+        <div class="logo-text">Keba <span>Labs</span></div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="seo-services-chennai.html">SEO</a></li>
+        <li><a href="portfolio.html">Work</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="contact.html" class="btn-primary" style="padding:10px 20px;font-size:14px;">Get Started →</a>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="seo-services-chennai.html">SEO Services</a>
+  <a href="web-development-chennai.html">Web Development</a>
+  <a href="ai-automation.html">AI Automation</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="blog.html">Blog</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn-primary" style="margin-top:8px;justify-content:center;">Get Started →</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="hero-grid"></div>
+    <div class="hero-glow1"></div>
+    <div class="hero-glow2"></div>
+  </div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-tag fade-up">
+        <span class="tag">AI-Powered Digital Growth · Chennai</span>
+      </div>
+      <h1 class="fade-up fade-up-delay-1">
+        Turn Your<br><span class="accent">Vision</span> Into<br>Reality
+      </h1>
+      <p class="hero-desc fade-up fade-up-delay-2">
+        Keba Labs is Chennai's most advanced AI-powered digital growth company — helping businesses, startups, and brands scale through intelligent SEO, premium web development, AI automation, and performance marketing.
+      </p>
+      <div class="hero-actions fade-up fade-up-delay-3">
+        <button class="btn-primary" onclick="openCalModal()">Start Growing Today →</button>
+        <a href="portfolio.html" class="btn-secondary">View Our Work</a>
+      </div>
+      <div class="hero-stats fade-up">
+        <div class="hero-stat">
+          <div class="hero-stat-num">200+</div>
+          <div class="hero-stat-label">Projects Delivered</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">98%</div>
+          <div class="hero-stat-label">Client Retention</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">5x</div>
+          <div class="hero-stat-label">Avg. ROI</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MARQUEE ===== -->
+<div class="marquee-section">
+  <div class="marquee-track">
+    <span class="marquee-item">SEO Company Chennai</span>
+    <span class="marquee-item">AI Marketing Agency</span>
+    <span class="marquee-item">Web Development Chennai</span>
+    <span class="marquee-item">Digital Growth Partner</span>
+    <span class="marquee-item">Branding Agency Chennai</span>
+    <span class="marquee-item">Performance Marketing</span>
+    <span class="marquee-item">AI Automation Solutions</span>
+    <span class="marquee-item">Lead Generation Experts</span>
+    <span class="marquee-item">Conversion Optimization</span>
+    <span class="marquee-item">UI/UX Design Studio</span>
+    <span class="marquee-item">SEO Company Chennai</span>
+    <span class="marquee-item">AI Marketing Agency</span>
+    <span class="marquee-item">Web Development Chennai</span>
+    <span class="marquee-item">Digital Growth Partner</span>
+    <span class="marquee-item">Branding Agency Chennai</span>
+    <span class="marquee-item">Performance Marketing</span>
+    <span class="marquee-item">AI Automation Solutions</span>
+    <span class="marquee-item">Lead Generation Experts</span>
+  </div>
+</div>
+
+<!-- ===== SERVICES ===== -->
+<section class="services-section" id="services">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="tag">What We Do</span>
+      <h2>Intelligent Services for <span style="color:var(--green)">Exponential Growth</span></h2>
+      <p>From SEO to AI automation — every service we deliver is engineered to create measurable, lasting business impact.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card fade-up">
+        <div class="service-icon">🔍</div>
+        <h3>Search Engine Optimization</h3>
+        <p>Dominate Google rankings with AI-driven SEO strategies. We target high-intent keywords to bring you qualified traffic that converts.</p>
+        <a href="seo-services-chennai.html" class="service-link">Explore SEO Services →</a>
+      </div>
+      <div class="service-card fade-up fade-up-delay-1">
+        <div class="service-icon">💻</div>
+        <h3>Web Development Chennai</h3>
+        <p>Premium, high-performance websites built with modern technologies. Fast, secure, conversion-optimized, and built to scale.</p>
+        <a href="web-development-chennai.html" class="service-link">Explore Web Dev →</a>
+      </div>
+      <div class="service-card fade-up fade-up-delay-2">
+        <div class="service-icon">🤖</div>
+        <h3>AI Automation Solutions</h3>
+        <p>Automate your business workflows with intelligent AI systems. Save time, reduce costs, and scale operations without hiring more.</p>
+        <a href="ai-automation.html" class="service-link">Explore AI Solutions →</a>
+      </div>
+      <div class="service-card fade-up">
+        <div class="service-icon">🎨</div>
+        <h3>Brand Identity Design</h3>
+        <p>Build a brand that commands premium positioning. Logos, visual systems, brand guidelines, and identity assets that last decades.</p>
+        <a href="services.html" class="service-link">Explore Branding →</a>
+      </div>
+      <div class="service-card fade-up fade-up-delay-1">
+        <div class="service-icon">📈</div>
+        <h3>Performance Marketing</h3>
+        <p>Data-driven Google Ads, Meta Ads, and LinkedIn campaigns engineered for maximum ROI. Every rupee measured and optimized.</p>
+        <a href="services.html" class="service-link">Explore Performance →</a>
+      </div>
+      <div class="service-card fade-up fade-up-delay-2">
+        <div class="service-icon">📱</div>
+        <h3>Social Media Marketing</h3>
+        <p>Build an engaged audience and grow brand authority across Instagram, LinkedIn, YouTube, and beyond with data-led content strategy.</p>
+        <a href="services.html" class="service-link">Explore Social →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY KEBA LABS ===== -->
+<section class="why-section">
+  <div class="container">
+    <div class="why-grid">
+      <div class="why-features">
+        <div class="fade-up">
+          <span class="tag">Why Choose Us</span>
+          <h2 style="font-size:clamp(32px,3.5vw,48px);margin:16px 0 8px;">The Keba Labs <span style="color:var(--green)">Difference</span></h2>
+          <p style="color:var(--gray);font-size:16px;margin-bottom:40px;">We don't just run campaigns — we build AI-powered growth systems that compound over time.</p>
+        </div>
+
+        <div class="why-feature fade-up">
+          <div class="why-feature-icon">🧠</div>
+          <div>
+            <h4>AI-First Strategy</h4>
+            <p>Every strategy is powered by AI tools and machine learning — not guesswork or generic templates.</p>
+          </div>
+        </div>
+        <div class="why-feature fade-up fade-up-delay-1">
+          <div class="why-feature-icon">📊</div>
+          <div>
+            <h4>Data-Driven Execution</h4>
+            <p>All decisions are backed by real data. We track, measure, and optimize every single metric that matters.</p>
+          </div>
+        </div>
+        <div class="why-feature fade-up fade-up-delay-2">
+          <div class="why-feature-icon">⚡</div>
+          <div>
+            <h4>Rapid Results</h4>
+            <p>Our systems are engineered for speed. Clients typically see significant results within 90 days.</p>
+          </div>
+        </div>
+        <div class="why-feature fade-up fade-up-delay-3">
+          <div class="why-feature-icon">🎯</div>
+          <div>
+            <h4>Enterprise-Level Quality</h4>
+            <p>Global-standard quality at Chennai pricing. Every deliverable goes through rigorous quality control.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="why-visual fade-up">
+        <div class="why-visual-card">
+          <h3 style="margin-bottom:24px;font-size:18px;">Client Growth Dashboard</h3>
+          <div class="why-metric">
+            <div>
+              <div class="why-metric-label">Organic Traffic Growth</div>
+              <div class="why-metric-bar"><div class="why-metric-fill" style="width:87%"></div></div>
+            </div>
+            <div class="why-metric-value">+312%</div>
+          </div>
+          <div class="why-metric">
+            <div>
+              <div class="why-metric-label">Lead Generation Rate</div>
+              <div class="why-metric-bar"><div class="why-metric-fill" style="width:74%"></div></div>
+            </div>
+            <div class="why-metric-value">+248%</div>
+          </div>
+          <div class="why-metric">
+            <div>
+              <div class="why-metric-label">Conversion Rate</div>
+              <div class="why-metric-bar"><div class="why-metric-fill" style="width:65%"></div></div>
+            </div>
+            <div class="why-metric-value">+187%</div>
+          </div>
+          <div class="why-metric">
+            <div>
+              <div class="why-metric-label">Revenue Impact</div>
+              <div class="why-metric-bar"><div class="why-metric-fill" style="width:92%"></div></div>
+            </div>
+            <div class="why-metric-value">+5.2x</div>
+          </div>
+          <div class="why-metric">
+            <div>
+              <div class="why-metric-label">Brand Search Volume</div>
+              <div class="why-metric-bar"><div class="why-metric-fill" style="width:80%"></div></div>
+            </div>
+            <div class="why-metric-value">+420%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section class="process-section">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="tag">How We Work</span>
+      <h2>Our 4-Phase <span style="color:var(--green)">Growth System</span></h2>
+      <p>A proven methodology that transforms businesses into market leaders — systematically, intelligently, at scale.</p>
+    </div>
+
+    <div class="process-steps">
+      <div class="process-step fade-up">
+        <div class="step-num">01</div>
+        <h3>Discovery & Audit</h3>
+        <p>Deep analysis of your business, market, competitors, and current digital footprint. We identify the exact gaps and opportunities most agencies miss.</p>
+      </div>
+      <div class="process-step fade-up fade-up-delay-1">
+        <div class="step-num">02</div>
+        <h3>Strategy Architecture</h3>
+        <p>We design a custom AI-powered growth strategy tailored to your specific industry, audience, and revenue goals. No generic playbooks.</p>
+      </div>
+      <div class="process-step fade-up fade-up-delay-2">
+        <div class="step-num">03</div>
+        <h3>Precision Execution</h3>
+        <p>Our specialists execute with military precision — on-time, on-budget, with enterprise quality standards at every stage of delivery.</p>
+      </div>
+      <div class="process-step fade-up fade-up-delay-3">
+        <div class="step-num">04</div>
+        <h3>Scale & Optimize</h3>
+        <p>Continuous optimization using real-time data and AI analytics. We compound your results month-over-month until you dominate your market.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PORTFOLIO ===== -->
+<section class="portfolio-section">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="tag">Our Work</span>
+      <h2>Results That <span style="color:var(--green)">Speak</span></h2>
+      <p>Real businesses. Real growth. Real results. See how we've transformed brands across industries.</p>
+    </div>
+
+    <div class="portfolio-grid">
+      <div class="portfolio-card fade-up">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#0a1628,#051210)">
+          <span style="position:relative;z-index:1">🏗️</span>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-tag">SEO + Web Development</div>
+          <h3>ConstructTech Builders</h3>
+          <p>Built premium website and SEO system that took a Chennai construction firm from zero to page 1 on Google within 4 months.</p>
+          <div class="portfolio-metrics">
+            <div class="portfolio-metric">
+              <div class="portfolio-metric-val">+380%</div>
+              <div class="portfolio-metric-lbl">Traffic</div>
+            </div>
+            <div class="portfolio-metric">
+              <div class="portfolio-metric-val">47</div>
+              <div class="portfolio-metric-lbl">Keywords Ranked</div>
+            </div>
+            <div class="portfolio-metric">
+              <div class="portfolio-metric-val">6x</div>
+              <div class="portfolio-metric-lbl">Lead Volume</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card fade-up fade-up-delay-1">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#0a1628,#100520)">
+          <span style="position:relative;z-index:1">🛒</span>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-tag">Performance Marketing + AI</div>
+          <h3>StyleCraft Fashion</h3>
+          <p>AI-powered Meta and Google ad campaigns that turned a D2C fashion brand's ₹2L monthly spend into ₹14L monthly revenue.</p>
+          <div class="portfolio-metrics">
+            <div class="portfolio-metric">
+              <div class="portfolio-metric-val">7x</div>
+              <div class="portfolio-metric-lbl">ROAS</div>
+            </div>
+            <div class="portfolio-metric">
+              <div class="portfolio-metric-val">-62%</div>
+              <div class="portfolio-metric-lbl">CPA Drop</div>
+            </div>
+            <div class="portfolio-metric">
+              <div class="portfolio-metric-val">₹14L</div>
+              <div class="portfolio-metric-lbl">Monthly Rev</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card fade-up fade-up-delay-2">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#051210,#0a1005)">
+          <span style="position:relative;z-index:1">🏥</span>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-tag">Branding + Social Media</div>
+          <h3>VitalCare Clinic</h3>
+          <p>Complete brand overhaul and social media strategy that turned a small Chennai clinic into a trusted regional healthcare brand.</p>
+          <div class="portfolio-metrics">
+            <div class="portfolio-metric">
+              <div class="portfolio-metric-val">22K+</div>
+              <div class="portfolio-metric-lbl">Followers</div>
+            </div>
+            <div class="portfolio-metric">
+              <div class="portfolio-metric-val">+290%</div>
+              <div class="portfolio-metric-lbl">Appointments</div>
+            </div>
+            <div class="portfolio-metric">
+              <div class="portfolio-metric-val">4.9★</div>
+              <div class="portfolio-metric-lbl">Rating</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:48px;" class="fade-up">
+      <a href="portfolio.html" class="btn-secondary">View All Case Studies →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="stats-section">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item fade-up">
+        <div class="stat-num" data-target="200">0</div>
+        <div class="stat-label">Projects Successfully Delivered</div>
+      </div>
+      <div class="stat-item fade-up fade-up-delay-1">
+        <div class="stat-num" data-target="150">0</div>
+        <div class="stat-label">Happy Clients Across India</div>
+      </div>
+      <div class="stat-item fade-up fade-up-delay-2">
+        <div class="stat-num" data-target="5">0</div>
+        <div class="stat-label">Years of Digital Excellence</div>
+      </div>
+      <div class="stat-item fade-up fade-up-delay-3">
+        <div class="stat-num" data-target="98">0</div>
+        <div class="stat-label">Client Satisfaction Rate %</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INDUSTRIES ===== -->
+<section class="industries-section">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="tag">Industries We Serve</span>
+      <h2>Across Every <span style="color:var(--green)">Sector</span></h2>
+      <p>Domain expertise across 8+ industries means faster results and smarter strategy from day one.</p>
+    </div>
+
+    <div class="industries-grid">
+      <div class="industry-card fade-up">
+        <div class="industry-icon">🏗️</div>
+        <h4>Real Estate & Construction</h4>
+      </div>
+      <div class="industry-card fade-up fade-up-delay-1">
+        <div class="industry-icon">🛒</div>
+        <h4>E-Commerce & D2C Brands</h4>
+      </div>
+      <div class="industry-card fade-up fade-up-delay-2">
+        <div class="industry-icon">🏥</div>
+        <h4>Healthcare & Wellness</h4>
+      </div>
+      <div class="industry-card fade-up fade-up-delay-3">
+        <div class="industry-icon">🎓</div>
+        <h4>EdTech & Education</h4>
+      </div>
+      <div class="industry-card fade-up">
+        <div class="industry-icon">⚙️</div>
+        <h4>Manufacturing & B2B</h4>
+      </div>
+      <div class="industry-card fade-up fade-up-delay-1">
+        <div class="industry-icon">🍽️</div>
+        <h4>Food & Hospitality</h4>
+      </div>
+      <div class="industry-card fade-up fade-up-delay-2">
+        <div class="industry-icon">💰</div>
+        <h4>Finance & Fintech</h4>
+      </div>
+      <div class="industry-card fade-up fade-up-delay-3">
+        <div class="industry-icon">🚀</div>
+        <h4>Startups & SaaS</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="testimonials-section">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="tag">Client Stories</span>
+      <h2>Trusted by <span style="color:var(--green)">Growth Leaders</span></h2>
+      <p>Real words from real clients who chose Keba Labs and never looked back.</p>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card fade-up">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Keba Labs transformed our digital presence entirely. Within 6 months, our website traffic tripled and our lead quality improved dramatically. The AI-powered approach is genuinely different — not just another agency."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">AK</div>
+          <div>
+            <div class="author-name">Arjun Krishnamurthy</div>
+            <div class="author-role">MD, TechBridge Solutions, Chennai</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card fade-up fade-up-delay-1">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"The SEO results Keba Labs delivered are nothing short of remarkable. We went from page 5 to page 1 for our most competitive keywords in under 4 months. The ROI speaks for itself — best investment we made."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">PM</div>
+          <div>
+            <div class="author-name">Priya Murugesan</div>
+            <div class="author-role">Founder, StyleVault India</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card fade-up fade-up-delay-2">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Working with RK Milton and the Keba Labs team is like having a world-class tech company on your side. Our SaaS product's user acquisition improved 4x after their growth strategy. Exceptional team."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">RS</div>
+          <div>
+            <div class="author-name">Rahul Sharma</div>
+            <div class="author-role">CEO, DataFlow AI (Mumbai)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card fade-up">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Our e-commerce brand was struggling with high ad costs and low returns. Keba Labs rebuilt our entire performance marketing system and now we're running at 7x ROAS consistently. Total game changer."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">VR</div>
+          <div>
+            <div class="author-name">Vijay Rajan</div>
+            <div class="author-role">Co-Founder, NaturalRoot Organics</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card fade-up fade-up-delay-1">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"I approached Keba Labs for a website redesign and got so much more — a complete digital strategy that's driving real business growth. The design quality is absolutely premium. Truly enterprise-level work."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">SN</div>
+          <div>
+            <div class="author-name">Sarah Nair</div>
+            <div class="author-role">Director, Horizon Architects, Bangalore</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card fade-up fade-up-delay-2">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Keba Labs automated our client onboarding and follow-up processes using AI — saving us 20+ hours per week. The AI automation solutions they built are sophisticated and incredibly effective. Highly recommend."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">KP</div>
+          <div>
+            <div class="author-name">Kiran Patel</div>
+            <div class="author-role">Founder, FinEdge Advisory, Hyderabad</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOUNDER ===== -->
+<section class="founder-section">
+  <div class="container">
+    <div class="founder-grid">
+      <div class="founder-image-wrap fade-up">
+        <div class="founder-card">
+          <div class="founder-avatar-large">R</div>
+          <div class="founder-name-card">RK Milton</div>
+          <div class="founder-title-card">Founder & CEO, Keba Labs</div>
+          <div style="margin-top:24px;color:var(--gray);font-size:14px;line-height:1.7;max-width:280px;margin-left:auto;margin-right:auto;">
+            "I built Keba Labs because I saw too many great businesses fail not from lack of ambition — but from lack of the right digital strategy. That ends here."
+          </div>
+          <div class="founder-badge">✦ Vision Into Reality</div>
+        </div>
+      </div>
+
+      <div class="founder-content fade-up fade-up-delay-1">
+        <span class="tag">Founder Story</span>
+        <h2>Meet <span style="color:var(--green)">RK Milton</span> — The Architect of Digital Growth</h2>
+        <p>RK Milton is a digital strategist, AI-focused entrepreneur, and technology visionary who founded Keba Labs with a singular mission: to give every business in India access to world-class, AI-powered digital growth systems.</p>
+        <p>With deep expertise in SEO, performance marketing, web development, AI automation, and brand strategy, RK Milton leads a team of specialists who have collectively driven millions in revenue growth for clients across India and beyond.</p>
+        <p>His approach is rooted in data, powered by AI, and executed with the precision of a global technology company — bringing Silicon Valley-level thinking to Chennai's business landscape.</p>
+
+        <div class="founder-credentials">
+          <div class="credential">AI & Machine Learning Strategy Specialist</div>
+          <div class="credential">Performance Marketing Expert (Google, Meta, LinkedIn)</div>
+          <div class="credential">Enterprise SEO Architect with proven page-1 results</div>
+          <div class="credential">Founder of 200+ successful digital projects</div>
+          <div class="credential">Trusted by startups, enterprises & global brands</div>
+        </div>
+
+        <div style="margin-top:36px;display:flex;gap:16px;flex-wrap:wrap;">
+          <a href="about.html" class="btn-primary">Our Story →</a>
+          <a href="contact.html" class="btn-secondary">Work With Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SEO CONTENT ===== -->
+<section class="seo-section">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="tag">Digital Marketing Company in Chennai</span>
+      <h2>Why Businesses in Chennai <span style="color:var(--green)">Choose Keba Labs</span></h2>
+      <p>As Chennai's leading AI-powered digital growth company, we deliver results that matter — more traffic, more leads, more revenue.</p>
+    </div>
+
+    <div class="seo-content-grid">
+      <div class="seo-block fade-up">
+        <h2>Best SEO Company in Chennai</h2>
+        <p>Keba Labs is recognized as one of the best SEO companies in Chennai, delivering data-driven search engine optimization strategies that consistently achieve page-1 rankings for competitive keywords.</p>
+        <p>Our SEO methodology combines technical excellence, high-quality content creation, authoritative link building, and AI-powered keyword intelligence to deliver sustainable, long-term organic growth.</p>
+        <h3>Our SEO Services Include:</h3>
+        <ul>
+          <li>Technical SEO Audit & Implementation</li>
+          <li>Keyword Research & Competitive Analysis</li>
+          <li>On-Page & Content Optimization</li>
+          <li>Local SEO for Chennai Businesses</li>
+          <li>Link Building & Domain Authority Growth</li>
+          <li>AI-Powered Content Strategy</li>
+        </ul>
+      </div>
+
+      <div class="seo-block fade-up fade-up-delay-1">
+        <h2>Web Development Company in Chennai</h2>
+        <p>Keba Labs builds premium, high-performance websites that don't just look great — they convert visitors into customers. Our web development team specializes in modern, fast, and SEO-optimized web solutions.</p>
+        <p>From corporate websites to e-commerce platforms, web applications to landing pages — we build with precision and purpose, ensuring every pixel serves your business goals.</p>
+        <h3>Web Development Capabilities:</h3>
+        <ul>
+          <li>Custom Corporate Website Design</li>
+          <li>E-Commerce Development (WooCommerce, Shopify)</li>
+          <li>React & Next.js Web Applications</li>
+          <li>WordPress Premium Development</li>
+          <li>UI/UX Design & Prototyping</li>
+          <li>Speed Optimization & Core Web Vitals</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="faq-section">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="tag">FAQ</span>
+      <h2>Frequently Asked <span style="color:var(--green)">Questions</span></h2>
+      <p>Get answers to the most common questions about our services, process, and results.</p>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item fade-up">
+        <div class="faq-q">
+          <span>What makes Keba Labs different from other digital marketing agencies in Chennai?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-a">
+          <p>Keba Labs is an AI-first digital growth company — not a traditional agency. We combine AI-powered tools, data-driven strategy, and enterprise-level execution to deliver measurably superior results. Our team doesn't use generic templates or one-size-fits-all approaches. Every strategy is custom-built for your specific business, market, and growth goals.</p>
+        </div>
+      </div>
+
+      <div class="faq-item fade-up fade-up-delay-1">
+        <div class="faq-q">
+          <span>How long does it take to see SEO results with Keba Labs?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-a">
+          <p>Most clients begin seeing measurable improvements in organic traffic and keyword rankings within 60-90 days. Significant, competitive rankings typically appear within 4-6 months. Our AI-powered approach accelerates the process considerably compared to traditional SEO methods. We provide monthly reports so you can track progress transparently.</p>
+        </div>
+      </div>
+
+      <div class="faq-item fade-up fade-up-delay-2">
+        <div class="faq-q">
+          <span>Do you work with startups or only established businesses?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-a">
+          <p>We work with businesses of all sizes — from funded startups building their digital foundation to established enterprises scaling their market presence. We have specific packages and strategies designed for early-stage companies, as well as enterprise-level growth programs for larger organizations. The right approach depends on your goals and budget.</p>
+        </div>
+      </div>
+
+      <div class="faq-item fade-up">
+        <div class="faq-q">
+          <span>What is AI automation and how can it help my business?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-a">
+          <p>AI automation involves building intelligent systems that handle repetitive business tasks automatically — such as lead follow-up emails, customer onboarding sequences, appointment scheduling, data analysis, report generation, and CRM updates. Our clients typically save 15-30 hours per week and see faster response times, better lead conversion, and reduced operational costs after implementing our AI automation systems.</p>
+        </div>
+      </div>
+
+      <div class="faq-item fade-up fade-up-delay-1">
+        <div class="faq-q">
+          <span>What is your pricing structure?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-a">
+          <p>Our pricing is project-based and retainer-based depending on the service. SEO retainers start from ₹25,000/month, web development projects from ₹50,000, and performance marketing management from ₹20,000/month (plus ad spend). We offer customized packages for businesses with multiple needs. Contact us for a free consultation and custom proposal tailored to your specific requirements.</p>
+        </div>
+      </div>
+
+      <div class="faq-item fade-up fade-up-delay-2">
+        <div class="faq-q">
+          <span>Do you serve clients outside Chennai?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-a">
+          <p>Absolutely. While we are headquartered in Chennai and have deep expertise in the local market, we serve clients across India — Mumbai, Bangalore, Hyderabad, Delhi, Pune — as well as international clients from the US, UK, UAE, and Singapore. Digital growth knows no geographic boundaries, and our systems work for businesses anywhere in the world.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BOOKING / CALENDLY ===== -->
+<section class="booking-section" id="book-session">
+  <div class="container">
+    <div class="booking-inner">
+      <div class="booking-content fade-up">
+        <span class="tag">Book a Free Strategy Session</span>
+        <h2>Let's Map Your <span style="color:var(--green)">Growth Roadmap</span></h2>
+        <p>Schedule a free 30-minute strategy session with RK Milton and our team. We'll audit your current digital presence, identify your biggest growth opportunities, and give you a clear roadmap — completely free, no obligations.</p>
+        <p>Trusted by 150+ businesses across Chennai, Bangalore, Mumbai, and globally.</p>
+
+        <div class="booking-features">
+          <div class="booking-feature">
+            <div class="booking-feature-dot"></div>
+            <span>Free 30-minute strategy & audit call</span>
+          </div>
+          <div class="booking-feature">
+            <div class="booking-feature-dot"></div>
+            <span>Custom growth roadmap — no templates</span>
+          </div>
+          <div class="booking-feature">
+            <div class="booking-feature-dot"></div>
+            <span>Transparent advice, zero pressure</span>
+          </div>
+          <div class="booking-feature">
+            <div class="booking-feature-dot"></div>
+            <span>Speak directly with our growth specialists</span>
+          </div>
+          <div class="booking-feature">
+            <div class="booking-feature-dot"></div>
+            <span>We respond &amp; confirm within 2 hours</span>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:16px;flex-wrap:wrap;">
+          <button class="btn-primary" onclick="openCalModal()">Book Your Session Now →</button>
+          <a href="contact.html" class="btn-secondary">Send Us a Message</a>
+        </div>
+
+        <div style="margin-top:28px;padding:20px;border-radius:12px;background:rgba(0,255,136,0.04);border:1px solid var(--border-green);">
+          <div style="display:flex;gap:20px;flex-wrap:wrap;">
+            <div style="text-align:center;">
+              <div style="font-size:24px;font-weight:800;color:var(--green);">200+</div>
+              <div style="font-size:12px;color:var(--gray);">Sessions Completed</div>
+            </div>
+            <div style="text-align:center;">
+              <div style="font-size:24px;font-weight:800;color:var(--green);">98%</div>
+              <div style="font-size:12px;color:var(--gray);">Satisfaction Rate</div>
+            </div>
+            <div style="text-align:center;">
+              <div style="font-size:24px;font-weight:800;color:var(--green);">&lt; 2h</div>
+              <div style="font-size:12px;color:var(--gray);">Confirmation Time</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="calendly-embed-wrap fade-up fade-up-delay-1">
+        <div
+          class="calendly-inline-widget"
+          data-url="https://calendly.com/kbcstuidos/book-a-strategy-session?month=2026-05&hide_gdpr_banner=1&background_color=111111&text_color=ffffff&primary_color=00ff88"
+          style="min-width:280px;height:680px;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box fade-up">
+      <span class="tag">Ready to Grow?</span>
+      <h2>Let's Build Your <span style="color:var(--green)">Digital Future</span></h2>
+      <p>Schedule a free strategy consultation with our team. No commitment. No pressure. Just a clear, honest roadmap to growing your business.</p>
+      <div class="cta-actions">
+        <button class="btn-primary" onclick="openCalModal()">Book Free Strategy Call →</button>
+        <a href="services.html" class="btn-secondary">Explore All Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">K</div>
+          <div class="logo-text">Keba <span>Labs</span></div>
+        </a>
+        <p>AI-powered digital growth company in Chennai. Helping businesses, startups, and brands scale through intelligent SEO, web development, AI automation, and performance marketing.</p>
+        <div class="footer-social">
+          <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+          <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+          <a href="#" class="social-link" aria-label="Instagram">ig</a>
+          <a href="#" class="social-link" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul class="footer-links">
+          <li><a href="seo-services-chennai.html">SEO Services</a></li>
+          <li><a href="web-development-chennai.html">Web Development</a></li>
+          <li><a href="ai-automation.html">AI Automation</a></li>
+          <li><a href="services.html">Performance Marketing</a></li>
+          <li><a href="services.html">Branding & Design</a></li>
+          <li><a href="services.html">Social Media</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html#team">Our Team</a></li>
+          <li><a href="about.html#careers">Careers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul class="footer-links">
+          <li><a href="mailto:contact@kebalabs.com">contact@kebalabs.com</a></li>
+          <li><a href="tel:+919385399701">+91 93853 99701</a></li>
+          <li><a href="#">Chennai, Tamil Nadu</a></li>
+          <li><a href="contact.html">Get a Free Quote</a></li>
+          <li><a href="contact.html">Book a Call</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2024 Keba Labs. All rights reserved. | AI-Powered Digital Growth Company in Chennai</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Calendly Inline Widget Script -->
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+<script>
+  const CALENDLY_URL = 'https://calendly.com/kbcstuidos/book-a-strategy-session?month=2026-05&hide_gdpr_banner=1&background_color=111111&text_color=ffffff&primary_color=00ff88';
+
+  function openCalModal() {
+    const overlay = document.getElementById('calModal');
+    const iframe = document.getElementById('calIframe');
+    if (!iframe.src) iframe.src = CALENDLY_URL;
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeCalModal() {
+    document.getElementById('calModal').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function closeCalendlyModal(e) {
+    if (e.target === document.getElementById('calModal')) closeCalModal();
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeCalModal();
+  });
+
+  // Navbar scroll
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  // Mobile menu
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+  hamburger.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+  });
+
+  // Intersection Observer for fade-up animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+  // Counter animation
+  function animateCounter(el) {
+    const target = parseInt(el.dataset.target);
+    const duration = 2000;
+    const start = performance.now();
+    const update = (time) => {
+      const progress = Math.min((time - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.floor(eased * target) + (el.dataset.suffix || '');
+      if (progress < 1) requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
+  }
+
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target);
+        counterObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  document.querySelectorAll('[data-target]').forEach(el => counterObserver.observe(el));
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-item').forEach(item => {
+    item.querySelector('.faq-q').addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    });
+  });
+</script>
+
+</body>
+</html>

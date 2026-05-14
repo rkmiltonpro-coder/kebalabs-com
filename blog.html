@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog & Insights | Digital Marketing, SEO & AI Tips | Keba Labs Chennai</title>
+<meta name="description" content="Explore Keba Labs' blog for expert insights on digital marketing, SEO strategies, AI automation, web development trends, and business growth tips from Chennai's top digital agency.">
+<meta name="keywords" content="digital marketing blog Chennai, SEO tips Chennai, AI marketing insights, web development tips, business growth strategies, Keba Labs blog">
+<link rel="canonical" href="https://kebalabs.com/blog.html">
+<style>
+  :root{--black:#050505;--dark:#0a0a0a;--dark2:#111111;--dark3:#161616;--green:#00ff88;--green3:#00ff8833;--white:#ffffff;--gray:#888888;--gray2:#555555;--border:rgba(255,255,255,0.06);--border-green:rgba(0,255,136,0.15);--font:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;}
+  *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--white);font-family:var(--font);line-height:1.6;overflow-x:hidden;}
+  ::-webkit-scrollbar{width:4px;}::-webkit-scrollbar-track{background:var(--dark);}::-webkit-scrollbar-thumb{background:var(--green);border-radius:2px;}
+  h1,h2,h3,h4{line-height:1.2;font-weight:700;letter-spacing:-0.02em;}
+  a{text-decoration:none;color:inherit;}
+  .container{max-width:1200px;margin:0 auto;padding:0 24px;}
+  .tag{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:100px;background:var(--green3);border:1px solid var(--border-green);color:var(--green);font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;}
+  .tag::before{content:'';width:6px;height:6px;background:var(--green);border-radius:50%;animation:pulse 2s infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.4;}}
+  .btn-primary{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:8px;background:var(--green);color:var(--black);font-weight:700;font-size:15px;border:none;transition:all 0.3s;box-shadow:0 0 30px rgba(0,255,136,0.3);}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 0 50px rgba(0,255,136,0.5);}
+  .btn-secondary{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:8px;background:transparent;color:var(--white);font-weight:600;font-size:15px;border:1px solid var(--border);transition:all 0.3s;}
+  .btn-secondary:hover{border-color:var(--green);color:var(--green);}
+  .fade-up{opacity:0;transform:translateY(30px);transition:opacity 0.6s ease,transform 0.6s ease;}
+  .fade-up.visible{opacity:1;transform:translateY(0);}
+  .fade-up-delay-1{transition-delay:0.1s;}.fade-up-delay-2{transition-delay:0.2s;}.fade-up-delay-3{transition-delay:0.3s;}
+  nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:16px 0;transition:all 0.3s;}
+  nav.scrolled{background:rgba(5,5,5,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;}
+  .logo{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:800;letter-spacing:-0.03em;}
+  .logo-icon{width:36px;height:36px;border-radius:8px;background:var(--green);display:flex;align-items:center;justify-content:center;color:var(--black);font-weight:900;font-size:16px;}
+  .logo-text span{color:var(--green);}
+  .nav-links{display:flex;align-items:center;gap:8px;list-style:none;}
+  .nav-links a{padding:8px 14px;border-radius:6px;font-size:14px;font-weight:500;color:var(--gray);transition:all 0.2s;}
+  .nav-links a:hover,.nav-links a.active{color:var(--white);background:rgba(255,255,255,0.05);}
+  .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;}
+  .hamburger span{display:block;width:22px;height:2px;background:var(--white);border-radius:2px;}
+  .mobile-menu{display:none;position:fixed;top:72px;left:0;right:0;background:rgba(5,5,5,0.98);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:24px;flex-direction:column;gap:8px;}
+  .mobile-menu.open{display:flex;}
+  .mobile-menu a{padding:12px 16px;border-radius:8px;font-size:15px;color:var(--gray);}
+
+  .page-hero{padding:140px 0 80px;text-align:center;position:relative;overflow:hidden;}
+  .page-hero-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(0,255,136,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(0,255,136,0.04) 1px,transparent 1px);background-size:60px 60px;}
+  .page-hero-glow{position:absolute;width:500px;height:500px;background:radial-gradient(circle,rgba(0,255,136,0.1) 0%,transparent 70%);top:-200px;left:50%;transform:translateX(-50%);border-radius:50%;}
+  .page-hero h1{font-size:clamp(40px,5vw,64px);margin:20px 0;position:relative;}
+  .page-hero p{color:var(--gray);font-size:18px;max-width:600px;margin:0 auto;position:relative;line-height:1.7;}
+
+  /* FEATURED POST */
+  .blog-featured{padding:80px 0;}
+  .featured-card{border-radius:20px;overflow:hidden;border:1px solid var(--border-green);background:linear-gradient(135deg,var(--dark2),var(--dark3));display:grid;grid-template-columns:1fr 1fr;transition:all 0.3s;cursor:pointer;}
+  .featured-card:hover{border-color:var(--green);box-shadow:0 0 60px rgba(0,255,136,0.1);}
+  .featured-thumb{background:linear-gradient(135deg,#030a06,#060e04);display:flex;align-items:center;justify-content:center;font-size:80px;min-height:320px;position:relative;overflow:hidden;}
+  .featured-thumb::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,255,136,0.05),transparent);}
+  .featured-body{padding:48px;}
+  .featured-tag{display:inline-block;padding:4px 12px;border-radius:100px;background:var(--green);color:var(--black);font-size:11px;font-weight:700;margin-bottom:16px;}
+  .featured-body h2{font-size:clamp(22px,2.5vw,32px);margin-bottom:16px;}
+  .featured-body p{color:var(--gray);font-size:15px;line-height:1.7;margin-bottom:24px;}
+  .blog-meta{display:flex;align-items:center;gap:16px;margin-bottom:24px;}
+  .blog-meta span{font-size:13px;color:var(--gray2);}
+  .blog-meta span.author{color:var(--gray);}
+  .read-more{font-size:14px;font-weight:600;color:var(--green);display:flex;align-items:center;gap:6px;transition:gap 0.2s;}
+  .read-more:hover{gap:12px;}
+
+  /* BLOG GRID */
+  .blog-section{padding:40px 0 100px;}
+  .blog-filter{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:48px;}
+  .filter-pill{padding:7px 18px;border-radius:100px;border:1px solid var(--border);background:transparent;color:var(--gray);font-size:13px;font-weight:600;cursor:pointer;transition:all 0.2s;font-family:var(--font);}
+  .filter-pill:hover,.filter-pill.active{background:var(--green3);border-color:var(--border-green);color:var(--green);}
+  .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+  .blog-card{border-radius:16px;overflow:hidden;border:1px solid var(--border);background:var(--dark2);transition:all 0.3s;cursor:pointer;}
+  .blog-card:hover{transform:translateY(-4px);border-color:var(--border-green);}
+  .blog-thumb{height:180px;display:flex;align-items:center;justify-content:center;font-size:48px;position:relative;overflow:hidden;}
+  .blog-thumb::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,255,136,0.03),transparent);}
+  .blog-body{padding:24px;}
+  .blog-category{font-size:11px;color:var(--green);font-weight:600;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px;}
+  .blog-card h3{font-size:17px;margin-bottom:10px;line-height:1.3;}
+  .blog-card p{font-size:13px;color:var(--gray);line-height:1.6;margin-bottom:16px;}
+  .blog-footer{display:flex;align-items:center;justify-content:space-between;padding-top:14px;border-top:1px solid var(--border);}
+  .blog-date{font-size:12px;color:var(--gray2);}
+  .blog-read-time{font-size:12px;color:var(--gray2);}
+
+  /* NEWSLETTER */
+  .newsletter-section{padding:80px 0;background:var(--dark2);}
+  .newsletter-box{border-radius:20px;padding:60px;background:var(--dark3);border:1px solid var(--border-green);text-align:center;position:relative;overflow:hidden;}
+  .newsletter-box::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at center,rgba(0,255,136,0.06) 0%,transparent 70%);}
+  .newsletter-box h2{font-size:32px;margin:16px 0 12px;position:relative;}
+  .newsletter-box p{color:var(--gray);font-size:16px;margin-bottom:32px;position:relative;}
+  .newsletter-form{display:flex;gap:12px;max-width:480px;margin:0 auto;position:relative;}
+  .newsletter-form input{flex:1;padding:13px 18px;border-radius:8px;background:var(--dark);border:1px solid var(--border);color:var(--white);font-size:14px;font-family:var(--font);outline:none;}
+  .newsletter-form input:focus{border-color:var(--green);}
+  .newsletter-form button{padding:13px 24px;border-radius:8px;background:var(--green);color:var(--black);font-weight:700;font-size:14px;border:none;cursor:pointer;white-space:nowrap;transition:all 0.3s;}
+  .newsletter-form button:hover{box-shadow:0 0 30px rgba(0,255,136,0.4);}
+
+  footer{background:var(--dark2);border-top:1px solid var(--border);padding:60px 0 32px;}
+  .footer-simple{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:24px;margin-bottom:40px;}
+  .footer-links-row{display:flex;gap:20px;flex-wrap:wrap;}
+  .footer-links-row a{font-size:14px;color:var(--gray);transition:color 0.2s;}
+  .footer-links-row a:hover{color:var(--green);}
+  .footer-bottom{padding-top:24px;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;}
+  .footer-bottom p{font-size:13px;color:var(--gray2);}
+
+  @media(max-width:1024px){.blog-grid{grid-template-columns:1fr 1fr;}.featured-card{grid-template-columns:1fr;}.featured-thumb{min-height:200px;}}
+  @media(max-width:768px){.nav-links{display:none;}.hamburger{display:flex;}.blog-grid{grid-template-columns:1fr;}.newsletter-form{flex-direction:column;}}
+</style>
+</head>
+<body>
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><div class="logo-icon">K</div><div class="logo-text">Keba <span>Labs</span></div></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li><li><a href="seo-services-chennai.html">SEO</a></li>
+        <li><a href="portfolio.html">Work</a></li><li><a href="blog.html" class="active">Blog</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn-primary" style="padding:10px 20px;font-size:14px;">Get Started →</a>
+      <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
+  <a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn-primary" style="margin-top:8px;justify-content:center;">Get Started →</a>
+</div>
+
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-glow"></div>
+  <div class="container">
+    <div class="fade-up"><span class="tag">Insights & Knowledge</span></div>
+    <h1 class="fade-up" style="position:relative;z-index:1;">Digital Growth <span style="color:var(--green)">Intelligence</span></h1>
+    <p class="fade-up" style="position:relative;z-index:1;margin-top:20px;">Expert insights on SEO, AI marketing, web development, automation, and digital growth — from the team that delivers results for 150+ businesses.</p>
+  </div>
+</section>
+
+<!-- FEATURED -->
+<section class="blog-featured">
+  <div class="container">
+    <div class="featured-card fade-up">
+      <div class="featured-thumb" style="background:linear-gradient(135deg,#020a06,#030e08)">🤖</div>
+      <div class="featured-body">
+        <div class="featured-tag">Featured · AI Marketing</div>
+        <div class="blog-meta"><span class="author">RK Milton</span><span>·</span><span>May 10, 2024</span><span>·</span><span>12 min read</span></div>
+        <h2>How AI is Completely Rewriting the Rules of Digital Marketing in 2024</h2>
+        <p>AI isn't just a tool anymore — it's becoming the backbone of every high-performing marketing strategy. Here's what every business in Chennai needs to know about the AI marketing revolution and how to position themselves ahead of it.</p>
+        <a href="#" class="read-more">Read Full Article →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG GRID -->
+<section class="blog-section">
+  <div class="container">
+    <div class="blog-filter fade-up">
+      <button class="filter-pill active">All Posts</button>
+      <button class="filter-pill">SEO</button>
+      <button class="filter-pill">AI & Automation</button>
+      <button class="filter-pill">Web Development</button>
+      <button class="filter-pill">Performance Marketing</button>
+      <button class="filter-pill">Branding</button>
+    </div>
+
+    <div class="blog-grid">
+      <div class="blog-card fade-up">
+        <div class="blog-thumb" style="background:linear-gradient(135deg,#030a06,#060e04)">🔍</div>
+        <div class="blog-body">
+          <div class="blog-category">SEO</div>
+          <h3>The Complete 2024 Local SEO Guide for Chennai Businesses</h3>
+          <p>Step-by-step guide to dominating local search results in Chennai — from Google Business Profile optimization to local link building strategies that actually work.</p>
+          <div class="blog-footer"><span class="blog-date">Apr 28, 2024</span><span class="blog-read-time">8 min read</span></div>
+        </div>
+      </div>
+
+      <div class="blog-card fade-up fade-up-delay-1">
+        <div class="blog-thumb" style="background:linear-gradient(135deg,#040a0e,#020810)">📈</div>
+        <div class="blog-body">
+          <div class="blog-category">Performance Marketing</div>
+          <h3>Why Your Meta Ads Are Failing (And How to Fix Them with AI)</h3>
+          <p>The 7 most common reasons Meta ad campaigns underperform in 2024 — and the AI-powered strategies our team uses to turn them around for consistent 6-7x ROAS.</p>
+          <div class="blog-footer"><span class="blog-date">Apr 15, 2024</span><span class="blog-read-time">10 min read</span></div>
+        </div>
+      </div>
+
+      <div class="blog-card fade-up fade-up-delay-2">
+        <div class="blog-thumb" style="background:linear-gradient(135deg,#030810,#06040e)">💻</div>
+        <div class="blog-body">
+          <div class="blog-category">Web Development</div>
+          <h3>Why Your Website is Costing You Business (Not Generating It)</h3>
+          <p>The uncomfortable truth about most Chennai business websites — and the 10 critical improvements that turn them from digital brochures into lead-generation machines.</p>
+          <div class="blog-footer"><span class="blog-date">Apr 3, 2024</span><span class="blog-read-time">7 min read</span></div>
+        </div>
+      </div>
+
+      <div class="blog-card fade-up">
+        <div class="blog-thumb" style="background:linear-gradient(135deg,#060a04,#0a0e02)">⚡</div>
+        <div class="blog-body">
+          <div class="blog-category">AI & Automation</div>
+          <h3>5 Business Processes You Should Automate with AI Right Now</h3>
+          <p>The highest-ROI automation opportunities for Indian businesses in 2024 — from lead follow-up to client reporting — and how to implement them without a technical team.</p>
+          <div class="blog-footer"><span class="blog-date">Mar 22, 2024</span><span class="blog-read-time">9 min read</span></div>
+        </div>
+      </div>
+
+      <div class="blog-card fade-up fade-up-delay-1">
+        <div class="blog-thumb" style="background:linear-gradient(135deg,#0a0604,#0e0802)">🎨</div>
+        <div class="blog-body">
+          <div class="blog-category">Branding</div>
+          <h3>Why Premium Branding is the Highest-ROI Investment for Growing Businesses</h3>
+          <p>Data-backed case for investing in professional brand identity — and how the right visual system can command 40-60% higher pricing in any competitive market.</p>
+          <div class="blog-footer"><span class="blog-date">Mar 10, 2024</span><span class="blog-read-time">6 min read</span></div>
+        </div>
+      </div>
+
+      <div class="blog-card fade-up fade-up-delay-2">
+        <div class="blog-thumb" style="background:linear-gradient(135deg,#030a08,#040e06)">📊</div>
+        <div class="blog-body">
+          <div class="blog-category">SEO</div>
+          <h3>Core Web Vitals in 2024: What Still Matters for Google Rankings</h3>
+          <p>A technical deep-dive into which Core Web Vitals signals Google actually weights in its 2024 ranking algorithm — and the fastest ways to improve your scores.</p>
+          <div class="blog-footer"><span class="blog-date">Feb 28, 2024</span><span class="blog-read-time">11 min read</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:48px;" class="fade-up">
+      <a href="#" class="btn-secondary">Load More Articles →</a>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter-section">
+  <div class="container">
+    <div class="newsletter-box fade-up">
+      <span class="tag">Weekly Intelligence</span>
+      <h2>Get Growth Insights <span style="color:var(--green)">Every Week</span></h2>
+      <p>Join 2,000+ business owners and marketers who read our weekly newsletter on digital marketing, SEO, and AI growth strategies.</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Enter your email address">
+        <button type="button">Subscribe →</button>
+      </div>
+      <div style="font-size:12px;color:var(--gray2);margin-top:12px;position:relative;">No spam. Unsubscribe anytime. Read by 2,000+ growth leaders.</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-simple">
+      <a href="index.html" class="logo"><div class="logo-icon">K</div><div class="logo-text">Keba <span>Labs</span></div></a>
+      <div class="footer-links-row">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
+        <a href="seo-services-chennai.html">SEO</a><a href="portfolio.html">Portfolio</a><a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2024 Keba Labs. All rights reserved.</p></div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script>
+  const CALENDLY_URL='https://calendly.com/kbcstuidos/book-a-strategy-session?month=2026-05&hide_gdpr_banner=1&background_color=111111&text_color=ffffff&primary_color=00ff88';
+  function openCalModal(){
+    if(typeof Calendly!=='undefined'){Calendly.initPopupWidget({url:CALENDLY_URL});return false;}
+    window.open(CALENDLY_URL,'_blank');
+  }
+  const navbar=document.getElementById('navbar');
+  window.addEventListener('scroll',()=>navbar.classList.toggle('scrolled',window.scrollY>40));
+  document.getElementById('hamburger').addEventListener('click',()=>document.getElementById('mobileMenu').classList.toggle('open'));
+  const obs=new IntersectionObserver((e)=>e.forEach(en=>{if(en.isIntersecting)en.target.classList.add('visible');}),{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.fade-up').forEach(el=>obs.observe(el));
+  document.querySelectorAll('.filter-pill').forEach(btn=>{
+    btn.addEventListener('click',()=>{document.querySelectorAll('.filter-pill').forEach(b=>b.classList.remove('active'));btn.classList.add('active');});
+  });
+</script>
+</body>
+</html>
