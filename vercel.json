@@ -1,0 +1,32 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/about", "dest": "/about.html" },
+    { "src": "/services", "dest": "/services.html" },
+    { "src": "/seo-services-chennai", "dest": "/seo-services-chennai.html" },
+    { "src": "/web-development-chennai", "dest": "/web-development-chennai.html" },
+    { "src": "/ai-automation", "dest": "/ai-automation.html" },
+    { "src": "/portfolio", "dest": "/portfolio.html" },
+    { "src": "/blog", "dest": "/blog.html" },
+    { "src": "/contact", "dest": "/contact.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-XSS-Protection", "value": "1; mode=block" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    },
+    {
+      "source": "/(.*)\\.html",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600, must-revalidate" }
+      ]
+    }
+  ]
+}
